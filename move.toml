@@ -1,0 +1,11 @@
+[package]
+name = "PhotographyNFT"
+version = "1.0.0"
+
+[addresses]
+PhotographyNFT = "0x5f7d02e4c908d821d25e7a1df65250c440272bbd54872721f334fba67821c028"  
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
